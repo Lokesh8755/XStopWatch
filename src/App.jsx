@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [time, setTime] = useState(0); // Initialize time to 0
-  const [intervalTracker, setIntervalTracker] = useState(null); // Use `null` instead of -1 for better clarity
+  const [intervalTracker, setIntervalTracker] = useState(null); // Use `null` instead of -1 for better clarity.
   
   // Format time function improved to handle edge cases around minute boundaries
   const formatTime = (seconds) => {
